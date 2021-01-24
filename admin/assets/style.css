@@ -1,0 +1,50 @@
+body {
+  background: url("../../assets/img/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(255,255,255,0.5);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.btn-x {
+  color: #fff;
+  background-color: rgba(0,0,0,1);
+  border-color: rgba(255,255,255,.4);
+}
+
+.btn-x:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,.9);
+  border-color: rgba(0,0,0,.3);
+}
+
+.btn-x:focus, .btn-x.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,.5);
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: rgba(255,255,255,0.8);
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
